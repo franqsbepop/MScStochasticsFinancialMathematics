@@ -1,17 +1,13 @@
-# Deep  Calibration of Local Stochastic Volatility models 
 
-Authors: 
 
-Christa Cuchiero (University of Vienna), [Homepage](https://www.mat.univie.ac.at/~cuchiero/)
 
+# The code provided builds on the work of "Deep  Calibration of Local Stochastic Volatility models "
+
+Authors: Christa Cuchiero (University of Vienna), [Homepage](https://www.mat.univie.ac.at/~cuchiero/)
 Wahid Khosrawi (ETH Zurich), [Homepage](https://people.math.ethz.ch/~kwahid/)
-
 Josef Teichmann (ETH Zurich), [Homepage](https://people.math.ethz.ch/~jteichma/)
-
 This is the repo corresponding to the paper:
-
 [A Generative Adversarial Network Approach to Calibration of Local Stochastic Volatility Models](https://www.mdpi.com/2227-9091/8/4/101)
-
 For citations:\
 **MDPI and ACS Style**\
 Cuchiero, C.; Khosrawi, W.; Teichmann, J. A Generative Adversarial Network Approach to Calibration of Local Stochastic Volatility Models. Risks **2020**, 8(4), 101.
@@ -35,9 +31,7 @@ Cuchiero, C.; Khosrawi, W.; Teichmann, J. A Generative Adversarial Network Appro
 
 ## Documentation 
 Will follow in the near future (this version requires tensorflow 1.13 and python 3)
-
 If the environment is set up correctly, the following command should start all computations needed for the statistical test described in the paper:
-
 ```console
 user@host:~$ python3 stat_test.py
 ```
