@@ -1,2 +1,2 @@
 # MastersSFM
-A collection of projects from my university degree
+A collection of projects from my masters degree
