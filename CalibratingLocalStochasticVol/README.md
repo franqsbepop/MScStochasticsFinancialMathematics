@@ -1,18 +1,19 @@
 # Abstract of master research thesis  titled "Calibration of Local Stochastic Volatility models in a conic finance setting using Artificial Neural Networks"
 By Diogo Franquinho
 
-In this thesis, we study the calibration of Local Stochastic Volatility (LSV) models using
-artificial neural networks, building upon prior work by C. Cuchiero, W. Khosrawi, and J.
-Teichmann. “A generative adversarial network approach to calibration of local stochastic
-volatility models”. In: Risks 8.4 (2020), p. 101. The proposed method approximates
-the map between market prices and model parameters by using a feed-forward neural
-network to approximate the local volatility component in our model. The method allows
-us to circumvent the computation of Dupire’s formula and avoid the interpolation of the
-volatility surface. We extend the prior work from the one-price setting to the two-
-price setting, using the conic finance framework. This allows us to consider only the
-information available in the market and derive calibrated bid and ask prices. Our method
-is evaluated through a numerical analysis that involves calibrating it with real market
-data and comparing the results against a benchmark model and method.
+In this thesis we study the calibration of Local Stochastic Volatility (LSV) models using
+artificial neural networks. We leverage the proposed methodology and techniques
+presented in C. Cuchiero, W. Khosrawi, and J. Teichmann. “A generative adversarial
+network approach to calibration of local stochastic volatility models”. In: Risks 8.4
+(2020), p. 101 to seamlessly approximate the map between market prices and model
+parameters using a feed-forward neural network. The methodology is fully data-driven
+and allows us to circumvent the strenuous computation of Dupire’s formula and avoids
+the interpolation of the volatility surface. Furthermore, we extended the method to
+handle the two-price system described in the framework of conic finance. Consequently,
+the directional nature of prices observed in markets is taken into account, allowing us to
+consider only information available in the market to derive calibrated bid and ask prices.
+Our method is evaluated through a numerical analysis that involves calibrating it with
+real market data and comparing the results against a benchmark model and method.
 
 
 # The code provided builds on the work of "Deep  Calibration of Local Stochastic Volatility models "
